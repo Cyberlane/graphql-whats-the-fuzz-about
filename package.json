@@ -1,0 +1,32 @@
+{
+  "name": "graphql-whats-the-fuzz-about",
+  "version": "1.0.0",
+  "description": "GraphQL - what's all the fuzz about?",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "build:slides": "cleaver src/slides.md",
+    "build:notes": "cleaver src/notes.md",
+    "watch:slides": "cleaver watch src/slides.md",
+    "watch:notes": "cleaver watch src/notes.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyberlane/graphql-whats-the-fuzz-about.git"
+  },
+  "author": "Justin Nel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyberlane/graphql-whats-the-fuzz-about/issues"
+  },
+  "homepage": "https://github.com/Cyberlane/graphql-whats-the-fuzz-about#readme",
+  "dependencies": {
+    "cleaver": "^0.8.7",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {
+    "express": "^4.16.2",
+    "ws": "^3.3.2"
+  }
+}
